@@ -1,10 +1,13 @@
+##Declaration
+A copy is made from https://github.com/Yodata/json-schema-generator (Nov 22, 2016) and all the changes is no top of the original copy, thus the copyright belows to the original author and follows to the original license. 
+
 ##JSON Schema Generator
 Generates a JSON-schema from a JSON document, or object. This is not intended to be bulletproof, since many of the attributes of the schema's properties are inferred from the data provided in the JSON document. It simply parses a JSON string and creates a best-guess representation of the JSON schema from the document.
 
 ### Attribution
-The software is forked from https://github.com/Yodata/json-schema-generator and make an own copy since there're some specifical treatments for my usage.
+The software is forked from https://github.com/Yodata/json-schema-generator and make an own copy since there're some specifical treatments for the usage.
 
-The original library is based on the [jsonschema/json-schema-v2](https://github.com/jsonschema/json-schema-v2) project (originally written for angular). This port is designed to work in any JavaScript based environment (web browsers, node.js, angular.js, Meteor...).
+The library is based on the [jsonschema/json-schema-v2](https://github.com/jsonschema/json-schema-v2) project (originally written for angular). This port is designed to work in any JavaScript based environment (web browsers, node.js, angular.js, Meteor...).
 
 ### Web Browser
 There are no prerequisites for this library.
@@ -52,6 +55,3 @@ Options are passed to the `JSONSchemaGenerator` contructor as object properties.
 | additionalItems | If set to `false`, includes the `"additionalItems": false` attribute for every property with a `type` of `array`. | `true` |
 | additionalProperties |  If set to `false`, includes the `"additionalProperties": false` attribute for every property with a `type` of `object`. | `true` |
 
-
-##Declaration
-The changes of the softeare is based on the original copy of https://github.com/Yodata/json-schema-generator, thus the copyright belongs to the original author. 
